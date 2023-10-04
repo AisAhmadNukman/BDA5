@@ -1,8 +1,6 @@
 APLIKASI ANALISIS KEPADATAN AREA PARKIR UINSA
 
-Fitur (authorized user):
-1. Melakukan prediksi kepadatan parkir menggunakan machine learning
-2. Menampilkan rekap data kepadatan parkir
-
-Fitur (anonymous user):
-1. Melakukan prediksi kepadatan parkir menggunakan machine learning
+Fitur:
+1. Melakukan analisa kepadatan parkir pada hari tertentu
+2. Merekomendasikan area parkir yang sepi pada hari tertentu
+3. Menampilkan rekap data kepadatan parkir
