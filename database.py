@@ -2,24 +2,24 @@ import pandas as pd
 
 # Data Dummy
 data = [
-    ["2023-09-01", "Senin", "06.00", "FST", "Sepeda", 50],
-    ["2023-09-01", "Senin", "06.00", "FST", "Motor", 100],
-    ["2023-09-01", "Senin", "06.00", "FST", "Mobil", 80],
-    ["2023-09-01", "Senin", "06.00", "Masjid", "Sepeda", 8],
-    ["2023-09-01", "Senin", "06.00", "Masjid", "Motor", 10],
-    ["2023-09-01", "Senin", "06.00", "Masjid", "Mobil", 50],
-    ["2023-09-20", "Senin", "06.00", "Danau", "Sepeda", 9],
-    ["2023-09-20", "Senin", "06.00", "Danau", "Motor", 390],
-    ["2023-09-20", "Senin", "06.00", "Danau", "Mobil", 7],
-    ["2023-09-20", "Senin", "06.00", "FISIP", "Sepeda", 5],
-    ["2023-09-20", "Senin", "06.00", "FISIP", "Motor", 50],
-    ["2023-09-20", "Senin", "06.00", "FISIP", "Mobil", 10],
-    ["2023-09-20", "Senin", "06.00", "FPK", "Sepeda", 13],
-    ["2023-09-20", "Senin", "06.00", "FPK", "Motor", 290],
-    ["2023-09-20", "Senin", "06.00", "FPK", "Mobil", 20],
+    ["Senin", "07.00", "FST", "Sepeda", 50],
+    ["Senin", "07.00", "FST", "Motor", 100],
+    ["Senin", "07.00", "FST", "Mobil", 80],
+    ["Senin", "07.00", "Masjid", "Sepeda", 8],
+    ["Senin", "07.00", "Masjid", "Motor", 10],
+    ["Senin", "07.00", "Masjid", "Mobil", 50],
+    ["Senin", "07.00", "Danau", "Sepeda", 9],
+    ["Senin", "07.00", "Danau", "Motor", 390],
+    ["Senin", "07.00", "Danau", "Mobil", 7],
+    ["Senin", "07.00", "FISIP", "Sepeda", 5],
+    ["Senin", "07.00", "FISIP", "Motor", 50],
+    ["Senin", "07.00", "FISIP", "Mobil", 10],
+    ["Senin", "07.00", "FPK", "Sepeda", 13],
+    ["Senin", "07.00", "FPK", "Motor", 290],
+    ["Senin", "07.00", "FPK", "Mobil", 20],
 ]
 
-df = pd.DataFrame(data, columns=["tanggal", "hari", "jam", "area", "jenis", "jumlah"])
+df = pd.DataFrame(data, columns=["hari", "jam", "area", "jenis", "jumlah"])
 df['jam'] = df['jam'].astype(float)
 
 def tambahkan_label(rata_rata):

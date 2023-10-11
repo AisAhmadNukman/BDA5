@@ -50,7 +50,7 @@ label_hour = ttk.Label(root, text="Jam:")
 label_hour.pack(pady=(10, 0))
 chosen_hour = tk.StringVar()
 hour = ttk.Combobox(root, width = 27, textvariable = chosen_hour)
-hour['values'] = ('06.00', 
+hour['values'] = ('07.00', 
                   '12.00',
                   '16.00')
 hour.pack()
